@@ -81,7 +81,7 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ##### 6. 深度学习tips
 
-6.1 优化算法
+6.1 [优化算法](https://github.com/houliwei/enjoy-machine-learning/blob/master/optimizer.ipynb)
 
 6.2 计算性能
 
