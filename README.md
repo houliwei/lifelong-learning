@@ -90,13 +90,17 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ### 7. 强化学习
 
-7.1 basic
+7.1 Basic
 
 7.1.1 [MDP](https://github.com/houliwei/enjoy-machine-learning/blob/master/MDP.ipynb)
 
 7.1.2 Dynamic Program
 
-7.2 
+7.1.3 Sarsa & Q-learning
+
+7.1.4 
+
+
 
 ***
 
