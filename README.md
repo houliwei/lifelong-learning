@@ -2,21 +2,21 @@
 
 ***
 
-This repository will implement all machine learning algorithms with Tensorflow2.0 , the contents are as follows（致敬《dive into deep learning》by李沐:
+This repository will implement all machine learning algorithms with Tensorflow2.0/Caffe , the contents are as follows（致敬《dive into deep learning》by李沐:
 
 ## contents
 
-1. 框架基础
+### 1. 框架基础
 
-1.1 数据操作
+1.1 Pytorch
 
-1.2 自动求梯度
+1.2 TensorFlow2.0
 
-1.3 
+1.3 Caffe
 
 ***
 
-2. 机器学习模型的部署
+### 2. 机器学习模型的部署
 
 2.1 流程
 
@@ -25,7 +25,7 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ***
 
-3. 常见机器学习模型的实现
+### 3. 常见机器学习模型的实现
 
 2.1 线性回归
 
@@ -45,7 +45,7 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ***
 
-4. 深度学习基础
+### 4. 深度学习基础
 
 4.1 模型构造
 
@@ -69,17 +69,17 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ***
 
-5. 深度学习计算
+### 5. 深度学习计算
 
-5.1 全连接神经网络
+5.1 FCN
 
-5.2 卷积神经网络
+5.2 CNN
 
-5.3 递归神经网络
+5.3 RNN
 
 ***
 
-6. 深度学习训练技巧
+##### 6. 深度学习tips
 
 6.1 优化算法
 
@@ -88,11 +88,25 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ***
 
-7. 强化学习
+### 7. 强化学习
+
+7.1 basic
+
+7.1.1 MDP
+
+7.1.2 Dynamic Program
+
+7.2 
 
 ***
 
-8. 生成模型
+### 8. 生成模型
+
+8.1 VAE
+
+8.2 GAN
+
+8.3 Flow
 
 ***
 
