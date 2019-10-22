@@ -92,7 +92,7 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 7.1 basic
 
-7.1.1 MDP
+7.1.1 [MDP](https://github.com/houliwei/enjoy-machine-learning/blob/master/MDP.ipynb)
 
 7.1.2 Dynamic Program
 
