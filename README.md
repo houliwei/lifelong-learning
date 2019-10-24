@@ -6,13 +6,9 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ## contents
 
-### 1. 框架基础
+### 1. 框架基础（TensorFlow）
 
-1.1 Pytorch
 
-1.2 TensorFlow2.0
-
-1.3 Caffe
 
 ***
 
