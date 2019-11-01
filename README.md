@@ -1,13 +1,32 @@
-# Machine-learning
+# Awesome-Machine-learning
 
-This repository will implement all machine learning algorithms with Tensorflow2.0 , the contents are as follows（致敬《dive into deep learning》by李沐:
+This repository will implement all machine learning algorithms , the contents are as follows（致敬《百面机器学习》:
 
 ## Content
 
-+ [框架基础](#框架基础)
++ [0.框架基础](#框架基础)
+  - [0.1 SK-learn](#SK-learn)
+  - [0.2 TensorFlow](#TensorFlow)
+  - [0.3 Pytorch](#Pytorch)
+  - [0.4 Caffe](#Caffe)
 
-+ [机器学习模型的部署](#机器学习模型的部署)
++ [1.特征工程](#特征工程)
 
++ [2.模型评估](#模型评估)
+
++ [3.经典模型](#经典模型)
+
++ [4.降维](#降维)
+
++ [5.非监督学习](#非监督学习)
+
++ [6.概率图模型](#概率图模型)
+
++ [6.概率图模型](#概率图模型)
+
++ [7.优化算法]() 
+
+01 有监督学习的损失函数 02 机器学习中的优化问题 03 经典优化算法 04 梯度验证 05 随机梯度下降法 06 随机梯度下降法的加速 07 L1正则化与稀疏性
 ***
 
 ## 框架基础
@@ -15,32 +34,16 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ***
 
-## 机器学习模型的部署
-
-2.1 流程
-
-2.2 模型选择、欠拟合和过拟合
-
+## 特征工程
 
 ***
 
-### 3. 常见机器学习模型的实现
+## 模型评估
 
-2.1 线性回归
+***
 
-2.2 softmax回归
+### 经典模型
 
-2.3 logistics回归
-
-2.4 感知机
-
-2.5 支持向量机
-
-2.6 K近邻法
-
-2.7 朴素贝叶斯
-
-2.8 提升方法
 
 ***
 
