@@ -10,7 +10,7 @@ This repository will implement all machine learning algorithms with Tensorflow2.
 
 ***
 
-## 框架基础（TensorFlow）
+## 框架基础
 
 
 ***
