@@ -63,7 +63,7 @@ This repository will implement all machine learning algorithms , the contents ar
 
 #### 第七篇 工业应用案例
 
-+ [17.机器学习的工业应用](#机器学习的工业应用)
++ [17.机器学习的工业应用](https://github.com/houliwei/awesome-machine-learning-tutorial/tree/master/PracticalML)
 
 #### 第八篇 机器学习前沿
 
