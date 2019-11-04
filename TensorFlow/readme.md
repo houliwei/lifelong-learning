@@ -1,12 +1,9 @@
 # Content
 
-+[1 TensorFlow基础](#TensorFlow基础)
-
-	-[1.1 TensorFlow的功能与特征](#TensorFlow的功能与特征)
-	
-	-[1.2 TensorFlow开发环境搭建](#TensorFlow开发环境搭建)
-	
-	-[1.3 TensorFlow核心编程基础](#TensorFlow核心编程基础])
++ [1 TensorFlow基础](#TensorFlow基础)
+	- [1.1 TensorFlow的功能与特征](#TensorFlow的功能与特征)
+	- [1.2 TensorFlow开发环境搭建](#TensorFlow开发环境搭建)
+	- [1.3 TensorFlow核心编程基础](#TensorFlow核心编程基础])
 	
 1.3.1 编程模型
 
