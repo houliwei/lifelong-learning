@@ -44,7 +44,7 @@ This repository will implement all machine learning algorithms , the contents ar
 
 #### 第五篇 深度学习提升
 
-+ [10.网络优化与正则化](#网络优化与正则化)
++ [10.网络优化与正则化](https://github.com/houliwei/awesome-machine-learning-tutorial/tree/master/Network-optimization%26regularization)
 
 + [11.注意力机制与外部记忆](#注意力机制与外部记忆)
 
