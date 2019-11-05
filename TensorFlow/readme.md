@@ -1,14 +1,14 @@
 # Content
 
-+ [1 TensorFlow基础](#TensorFlow基础)
-	- [1.1 TensorFlow的功能与特征](#TensorFlow的功能与特征)
-	- [1.2 TensorFlow开发环境搭建](#TensorFlow开发环境搭建)
-	- [1.3 TensorFlow核心编程基础](#TensorFlow核心编程基础])
-	
-1.3.1 编程模型
++ [1 TensorFlow基础](#1TensorFlow基础)
+	- [1.1 TensorFlow的功能与特征](#1.1TensorFlow的功能与特征)
+	- [1.2 TensorFlow开发环境搭建](#1.2TensorFlow开发环境搭建)
+	- [1.3 TensorFlow核心编程基础](#1.3TensorFlow核心编程基础])
+		- [1.3.1 编程模型](#1.3.1编程模型)
+		- [1.3.1 TensorFlow基础操作](#1.3.2TensorFlow基础操作)
+		- [1.3.3 自动求导机制](#1.3.3自动求导机制)
 
-1.3.2 TensorFlow基础操作
-1.3.3 自动求导机制
+
 2 TensorFlow常用API
 2.1 数据运算
 2.1.1 tf.bitwise
