@@ -1,7 +1,7 @@
 # Content
 
 + [1 TensorFlow基础](#1TensorFlow基础)
-	- [1.1 TensorFlow的功能与特征](##1.1TensorFlow的功能与特征)
+	- [1.1 TensorFlow的功能与特征](#1.1TensorFlow的功能与特征)
 	- [1.2 TensorFlow开发环境搭建](#1.2TensorFlow开发环境搭建)
 	- [1.3 TensorFlow核心编程基础](#1.3TensorFlow核心编程基础)
 		- [1.3.1 编程模型](#1.3.1编程模型)
@@ -86,7 +86,7 @@ TensorFlow2.0相比TensorFlow1.x更加简单与灵活，主要特征如下：
 （2）用于机器学习工作流的估计器api，带有用于回归、提升树和随机森林的预定义模型；
 （3）基于Eager execution的命令式编程，通过AutoGraph将Python代码（转换为TensorFlow的计算图代码；
 （4）支持保存Saved Model格式模型，并在其他平台部署。
-1.2 TensorFlow开发环境搭建
+## 1.2TensorFlow开发环境搭建
 TensorFlow2.x的安装需要用Python3.x，CPU版仅需要在终端运行以下命令：
 pip install tensorflow -U
 如果要安装GPU版本，首先安装CUDA 10.0(及以上)与cndnn。然后设置LD_LIBRARY_PATH环境变量。最后通过以下命令安装：
@@ -100,7 +100,7 @@ tf.__version__
 tf.test.is_gpu_available()
 
 输出结果为“True”则说明安装成功。
-1.3 TensorFlow核心编程基础
+## 1.3TensorFlow核心编程基础
 1.3.1 编程模型
 1.3.2 TensorFlow基础操作
 1.3.3 自动求导机制
