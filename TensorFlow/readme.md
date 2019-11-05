@@ -1,92 +1,92 @@
 # Content
 
-+ [1 TensorFlow基础](#1TensorFlow基础)
++ [1 TensorFlow基础](#TensorFlow基础)
 	- [1.1 TensorFlow的功能与特征](#TensorFlow的功能与特征)
-	- [1.2 TensorFlow开发环境搭建](#1.2TensorFlow开发环境搭建)
-	- [1.3 TensorFlow核心编程基础](#1.3TensorFlow核心编程基础)
-		- [1.3.1 编程模型](#1.3.1编程模型)
-		- [1.3.1 TensorFlow基础操作](#1.3.2TensorFlow基础操作)
-		- [1.3.3 自动求导机制](#1.3.3自动求导机制)
+	- [1.2 TensorFlow开发环境搭建](#TensorFlow开发环境搭建)
+	- [1.3 TensorFlow核心编程基础](#TensorFlow核心编程基础)
+		- [1.3.1 编程模型](#编程模型)
+		- [1.3.1 TensorFlow基础操作](#TensorFlow基础操作)
+		- [1.3.3 自动求导机制](#自动求导机制)
++ [2 TensorFlow常用API](#TensorFlow常用API)
+	- [2.1 数据运算](#数据运算)
+		- [2.1.1 tf.bitwise](#tf.bitwise)
+		- [2.1.2 tf.compat](#tf.compat)
+		- [2.1.3 tf.dtypes](#tf.dtypes)
+		- [2.1.4 tf.linalg](#tf.linalg)
+		- [2.1.5 tf.math](#tf.math)
+		- [2.1.6 tf.random](#tf.random)
+		- [2.1.7 tf.sets](#tf.sets)
+		- [2.1.8 tf.signal](#tf.signal)
+		- [2.1.9 tf.sparse](#tf.sparse)
+		- [2.1.10 tf.strings](#tf.strings)
+	- [2.2 非结构化数据处理](#非结构化数据处理)
+		- [2.2.1 tf.audio](#tf.audio)
+		- [2.2.2 tf.image](#tf.image)
+	- [2.3 数据预处理](#数据预处理)
+		- [2.3.1 tf.data](#tf.data)
+		- [2.3.2 tf.feature_column](#tf.feature_column)
+		- [2.3.3 tf.nn](#tf.nn)
+		- [2.3.4 tf.ragged](#tf.ragged)
+	- [2.4 调试部署工具](#调试部署工具)
+		- [2.4.1 tf.debugging](#tf.debugging)
+		- [2.4.2 tf.estimator](#tf.estimator)
+		- [2.4.3 tf.metrics](#tf.metrics)
+		- [2.4.4 tf.distribute](#tf.distribute)
+		- [2.4.5 tf.lite](#tf.lite)
+		- [2.4.6 tf.saved_model](#tf.saved_model)
+		- [2.4.7 tf.queue](#tf.queue)
+		- [2.4.8 tf.summary](#tf.summary)
++ [3 TensorFlow开发概述](#TensorFlow开发概述)
+	- [3.1 TensorFlow开发流程](#TensorFlow开发流程)
+		- [3.1.1 准备数据](#准备数据)
+		- [3.1.2 搭建模型](#搭建模型)
+		- [3.1.3 训练模型](#训练模型)
+		- [3.1.4 使用模型](#使用模型)
+	- [3.2 基础示例：全连接神经网络](#基础示例：全连接神经网络)
+	- [3.3 进阶模型](#进阶模型)
+		- [3.3.1 卷积神经网络](#卷积神经网络)
+		- [3.3.2 循环神经网络](#循环神经网络)
+		- [3.3.3 对抗神经网络](#对抗神经网络)
+		- [3.3.4 深度强化学习](#深度强化学习)
+	- [3.4 自定义层、损失函数与评估指标](#自定义层、损失函数与评估指标)
++ [4 TensorFlow开发实战](#TensorFlow开发实战)
+	- [4.1 Mnist手写数字识别](#Mnist手写数字识别)
+		- [4.1.1 网络构建](#网络构建)
+		- [4.1.2 模型保存与加载](#模型保存与加载)
+		- [4.1.3 可视化训练](#可视化训练)
+		- [4.1.4 引入卷积神经网络](#引入卷积神经网络)
+	- [4.2 物体检测](#物体检测)
+		- [4.2.1 RPN](#RPN)
+		- [4.2.2 YOLO-v3](#YOLO-v3)
+	- [4.3 图像分割](#图像分割)
+		- [4.3.1 Unet](#Unet)
+		- [4.3.2 FCN](#FCN)
+	- [4.4 图像生成](#图像生成)
+		- [4.4.1 DCGAN](#DCGAN)
+		- [4.4.2 Pix2Pix](#Pix2Pix)
+	- [4.5 强化学习](#强化学习)
+		- [4.5.1 监督学习实战CartPole-v0游戏](#监督学习实战CartPole-v0游戏)
+		- [4.5.2 Q-Learning实战MountainCar-v0游戏](#Q-Learning实战MountainCar-v0游戏)
+		- [4.5.3 Deep Q-Learning实战MountainCar-v0游戏](#Deep Q-Learning实战MountainCar-v0游戏)
+		- [4.5.4 策略梯度算法实战CartPole-v0](#策略梯度算法实战CartPole-v0)
++ [5 TensorFlow的部署](#TensorFlow的部署)
+	- [5.1 TensorFlow模型导出](#TensorFlow模型导出)
+	- [5.2 TensorFlow Serving](#TensorFlow Serving)
+	- [5.3 TensorFlow Lite](#TensorFlow Lite)
+	- [5.4 TensorFlow in JavaScript](#TensorFlow in JavaScript)
 
 
-2 TensorFlow常用API
-2.1 数据运算
-2.1.1 tf.bitwise
-2.1.2 tf.compat
-2.1.3 tf.dtypes
-2.1.4 tf.linalg
-2.1.5 tf.math
-2.1.6 tf.random
-2.1.7 tf.sets
-2.1.8 tf.signal
-2.1.9 tf.sparse
-2.1.10 tf.strings
-2.2 非结构化数据处理
-2.2.1 tf.audio
-2.2.2 tf.image
-2.3 数据预处理
-2.3.1 tf.data
-2.3.2 tf.feature_column
-2.3.3 tf.nn
-2.3.4 tf.ragged
-2.4 调试部署工具
-2.4.1 tf.debugging
-2.4.2 tf.estimator
-2.4.3 tf.metrics
-2.4.3 tf.distribute
-2.4.5 tf.lite
-2.4.6 tf.saved_model
-2.4.7 tf.queue
-2.4.8 tf.summary
-3 TensorFlow开发概述
-3.1 TensorFlow开发流程
-3.1.1 准备数据
-3.1.2 搭建模型
-3.1.3 训练模型
-3.1.4 使用模型
-3.2 基础示例：全连接神经网络
-3.3 进阶模型
-3.3.1 卷积神经网络
-3.3.2 循环神经网络
-3.3.4 对抗神经网络
-3.3.3 深度强化学习
-3.4 自定义层、损失函数与评估指标
-4 TensorFlow开发实战
-4.1 Mnist手写数字识别
-4.1.1 网络构建
-4.1.2 模型保存与加载
-4.1.3 可视化训练
-4.1.4 引入卷积神经网络
-4.2 物体检测
-4.2.1 RPN
-4.2.2 YOLO-v3
-4.3 图像分割
-4.3.1 Unet
-4.3.2 FCN
-4.4 图像生成
-4.4.1 DCGAN
-4.4.2 Pix2Pix
-4.5 强化学习
-4.5.1 监督学习实战CartPole-v0游戏
-4.5.2 Q-Learning实战MountainCar-v0游戏
-4.5.3 Deep Q-Learning实战MountainCar-v0游戏
-4.5.4 策略梯度算法实战CartPole-v0
-5 TensorFlow的部署
-5.1 TensorFlow模型导出
-5.2 TensorFlow Serving
-5.3 TensorFlow Lite
-5.4 TensorFlow in JavaScript
 
 
 
-# 1TensorFlow基础
+# TensorFlow基础
 ## TensorFlow的功能与特征
 TensorFlow2.0相比TensorFlow1.x更加简单与灵活，主要特征如下：
 （1）基于Keras的快速模型设计与高级控制；
 （2）用于机器学习工作流的估计器api，带有用于回归、提升树和随机森林的预定义模型；
 （3）基于Eager execution的命令式编程，通过AutoGraph将Python代码（转换为TensorFlow的计算图代码；
 （4）支持保存Saved Model格式模型，并在其他平台部署。
-## 1.2TensorFlow开发环境搭建
+## TensorFlow开发环境搭建
 TensorFlow2.x的安装需要用Python3.x，CPU版仅需要在终端运行以下命令：
 pip install tensorflow -U
 如果要安装GPU版本，首先安装CUDA 10.0(及以上)与cndnn。然后设置LD_LIBRARY_PATH环境变量。最后通过以下命令安装：
@@ -100,48 +100,48 @@ tf.__version__
 tf.test.is_gpu_available()
 
 输出结果为“True”则说明安装成功。
-## 1.3TensorFlow核心编程基础
-1.3.1 编程模型
-1.3.2 TensorFlow基础操作
-1.3.3 自动求导机制
+## TensorFlow核心编程基础
+### 编程模型
+### TensorFlow基础操作
+### 自动求导机制
  
-2 TensorFlow常用API
-2.1 数据运算
-2.1.1 tf.bitwise
-2.1.2 tf.compat
-2.1.3 tf.dtypes
-2.1.4 tf.linalg
-2.1.5 tf.math
-2.1.6 tf.random
-2.1.7 tf.sets
-2.1.8 tf.signal
-2.1.9 tf.sparse
-2.1.10 tf.strings
-2.2 非结构化数据处理
-2.2.1 tf.audio
-2.2.2 tf.image
-2.3 数据预处理
-2.3.1 tf.data
-2.3.2 tf.feature_column
-2.3.3 tf.nn
-2.3.4 tf.ragged
-2.4 调试部署工具
-2.4.1 tf.debugging
-2.4.2 tf.estimator
-2.4.3 tf.metrics
-2.4.3 tf.distribute
-2.4.5 tf.lite
-2.4.6 tf.saved_model
-2.4.7 tf.queue
-2.4.8 tf.summary
+# TensorFlow常用API
+## 数据运算
+### tf.bitwise
+### tf.compat
+### tf.dtypes
+### tf.linalg
+### tf.math
+### tf.random
+### tf.sets
+### tf.signal
+### tf.sparse
+### tf.strings
+## 非结构化数据处理
+### tf.audio
+### tf.image
+## 数据预处理
+### tf.data
+### tf.feature_column
+### tf.nn
+### tf.ragged
+## 调试部署工具
+### tf.debugging
+### tf.estimator
+### tf.metrics
+### tf.distribute
+### tf.lite
+### tf.saved_model
+### tf.queue
+### tf.summary
  
-3 TensorFlow开发概述
-3.1 TensorFlow开发流程
-3.1.1 准备数据
-3.1.2 搭建模型
-3.1.3 训练模型
-3.1.4 使用模型
-3.2 基础示例：全连接神经网络
+# TensorFlow开发概述
+## TensorFlow开发流程
+### 准备数据
+### 搭建模型
+### 训练模型
+### 使用模型
+## 基础示例：全连接神经网络
 本节将通过MNIST手写数字识别为例，熟悉TensorFlow2.0的模型搭建与训练流程，主要用到以下三个核心特性：
 （1）tf.keras：用于深度学习模型快速原型的高级面向对象api；
 （2）tf.GradientTape:动态记录梯度以实现自动梯度计算和反向传播；
@@ -231,36 +231,36 @@ print('Final epoch', epoch, ': loss', loss.numpy(), '; accuracy', accuracy.numpy
 
 
 
-3.3 进阶模型
-3.3.1 卷积神经网络
-3.3.2 循环神经网络
-3.3.4 对抗神经网络
-3.3.3 深度强化学习
-3.4 自定义层、损失函数与评估指标
+## 进阶模型
+### 卷积神经网络
+### 循环神经网络
+### 对抗神经网络
+### 深度强化学习
+## 自定义层、损失函数与评估指标
  
-4 TensorFlow开发实战
-4.1 Mnist手写数字识别
-4.1.1 网络构建
-4.1.2 模型保存与加载
-4.1.3 可视化训练
-4.1.4 引入卷积神经网络
-4.2 物体检测
-4.2.1 RPN
-4.2.2 YOLO-v3
-4.3 图像分割
-4.3.1 Unet
-4.3.2 FCN
-4.4 图像生成
-4.4.1 DCGAN
-4.4.2 Pix2Pix
-4.5 强化学习
-4.5.1 监督学习实战CartPole-v0游戏
-4.5.2 Q-Learning实战MountainCar-v0游戏
-4.5.3 Deep Q-Learning实战MountainCar-v0游戏
-4.5.4 策略梯度算法实战CartPole-v0
+# TensorFlow开发实战
+## Mnist手写数字识别
+### 网络构建
+### 模型保存与加载
+### 可视化训练
+### 引入卷积神经网络
+## 物体检测
+### RPN
+### YOLO-v3
+## 图像分割
+### Unet
+### FCN
+## 图像生成
+### DCGAN
+### Pix2Pix
+## 强化学习
+### 监督学习实战CartPole-v0游戏
+### Q-Learning实战MountainCar-v0游戏
+### Deep Q-Learning实战MountainCar-v0游戏
+### 策略梯度算法实战CartPole-v0
  
-5 TensorFlow的部署
-5.1 TensorFlow模型导出
-5.2 TensorFlow Serving
-5.3 TensorFlow Lite
-5.4 TensorFlow in JavaScript
+# TensorFlow的部署
+## TensorFlow模型导出
+## TensorFlow Serving
+## TensorFlow Lite
+## TensorFlow in JavaScript
