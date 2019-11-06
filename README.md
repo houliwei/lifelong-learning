@@ -5,11 +5,17 @@ This repository will implement all machine learning algorithms , the contents ar
 ## Content
 
 #### 第一篇 磨刀不误砍柴工
-+ [0.框架基础](#框架基础)
-  - [0.1 SK-learn](#SK-learn)
-  - [0.2 TensorFlow](https://github.com/houliwei/awesome-machine-learning-tutorial/tree/master/TensorFlow)
-  - [0.3 Pytorch](#Pytorch)
-  - [0.4 Caffe](#Caffe)
++ [框架基础](#框架基础)
+  - [SK-learn](#SK-learn)
+  - [TensorFlow](https://github.com/houliwei/awesome-machine-learning-tutorial/tree/master/TensorFlow)
+  - [Pytorch](#Pytorch)
+  - [Caffe](#Caffe)
++ [编程语言基础](#编程语言基础)
+  - [Python](#Python)
+  - [C++](#C++)
++ [数据结构与算法](#数据结构与算法)
+  - [剑指offer](#///)
+  - [Leetcode](#//)
 
 #### 第二篇 人的经验依然重要
 
